@@ -1,4 +1,5 @@
 def using_push
-  next_color
+  next_color = "violet"
+  
   
 end
