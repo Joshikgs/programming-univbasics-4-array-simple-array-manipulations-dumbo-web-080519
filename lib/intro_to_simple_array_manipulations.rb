@@ -6,3 +6,5 @@ def using_push(color_in_the_rainbow, next_color)
   updated_array = using_push(colors_in_the_rainbow, next_color),
   expect(updated_array.last).to eq(next_color)
 end
+
+colors_in_the_rainbow.push(next_color)
